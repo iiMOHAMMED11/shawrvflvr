@@ -1,117 +1,55 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shawrvflvr</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Arial', sans-serif;
-      background-color: #fff8f0;
-    }
-
-    header {
-      background-color: #d62828;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    nav {
-      background-color: #f77f00;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 10px 0;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .hero {
-      background-image: url('shawarma.jpg'); /* استبدل بصورة فعلية */
-      background-size: cover;
-      background-position: center;
-      height: 400px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      text-shadow: 2px 2px 10px #000;
-      font-size: 3rem;
-    }
-
-    .section {
-      padding: 40px;
-      text-align: center;
-    }
-
-    .menu-preview {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-
-    .menu-item {
-      background-color: #fcbf49;
-      padding: 20px;
-      border-radius: 10px;
-      width: 200px;
-    }
-
-    footer {
-      background-color: #003049;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شاورفليفر - نكهة الشاورما الأصلية</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <img src="logo.jpeg" alt="شعار شاورفليفر" class="logo">
+        <h1>شاورفليفر - نكهة الشاورما الأصلية</h1>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">المنيو</a></li>
+                <li><a href="#">العروض</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <header>
-    <h1>Shawrvflvr</h1>
-    <p>The Flavor You Crave!</p>
-  </header>
+    <section class="hero">
+        <h2>اكتشف ألذ شاورما في المدينة</h2>
+    </section>
 
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Menu</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-  </nav>
+    <section class="dishes">
+        <h2>أطباقنا المميزة</h2>
+        <div class="dish-grid">
+            <div class="dish">
+                <img src="https://source.unsplash.com/400x300/?shawarma" alt="شاورما">
+                <p>شاورما</p>
+            </div>
+            <div class="dish">
+                <img src="https://source.unsplash.com/400x300/?grilled-chicken" alt="دجاج مشوي">
+                <p>دجاج مشوي</p>
+            </div>
+            <div class="dish">
+                <img src="https://source.unsplash.com/400x300/?arabic-food" alt="طعام عربي">
+                <p>طعام عربي</p>
+            </div>
+        </div>
+    </section>
 
-  <div class="hero">
-    Taste the Real Shawarma
-  </div>
-
-  <div class="section">
-    <h2>Our Signature Items</h2>
-    <div class="menu-preview">
-      <div class="menu-item">
-        <h3>Chicken Shawarma</h3>
-        <p>Juicy grilled chicken with our special spices.</p>
-      </div>
-      <div class="menu-item">
-        <h3>Beef Shawarma</h3>
-        <p>Slow-roasted beef with garlic sauce.</p>
-      </div>
-      <div class="menu-item">
-        <h3>Falafel Wrap</h3>
-        <p>Crunchy, flavorful, and 100% vegetarian.</p>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    &copy; 2025 Shawrvflvr. All rights reserved.
-  </footer>
-
+    <footer>
+        <p>جميع الحقوق محفوظة © 2025 شاورفليفر</p>
+        <section id="contact">
+            <h3>تواصل معنا</h3>
+            <p>للطلبات أو الاستفسارات، يمكنكم التواصل معنا على الرقم:</p>
+            <p class="phone">0550945596</p>
+            <p>أو عبر إنستقرام: <a href="https://www.instagram.com" target="_blank">@shawrvflvr</a></p>
+        </section>
+    </footer>
 </body>
 </html>
